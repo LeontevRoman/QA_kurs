@@ -22,13 +22,10 @@ robot.click()
 check = browser.find_element(By.ID, 'robotsRule')
 check.click()
 
-
 time.sleep(3)
-
 
 button = browser.find_element(By.CSS_SELECTOR, 'button.btn')
 button.click()
 
 time.sleep(10)
 browser.quit()
-
