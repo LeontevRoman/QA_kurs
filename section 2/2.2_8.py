@@ -29,7 +29,6 @@ try:
 
     time.sleep(3)
 
-
 finally:
     time.sleep(5)
     browser.quit()
