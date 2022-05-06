@@ -27,9 +27,7 @@ try:
     check.click()
 
     button.click()
-
     time.sleep(3)
-
 
 finally:
     time.sleep(5)
